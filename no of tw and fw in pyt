@@ -1,0 +1,8 @@
+v=int(input("vehicle:"))
+w=int(input("wheels:"))
+if w%2==0 and 2<=w and v<w:
+    print("INVALID INPUT")
+else:
+    s=((4*v)-w)//2     
+    print("TW:",s)
+    print("FW:",v-s)
